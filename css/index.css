@@ -14,6 +14,11 @@ p.textSkills {
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
 }
+
+.solid {
+  border-top: 1px solid black;
+} 
+
 .navigation {
   /*outline: solid red 1px;*/
   width: 1200px;
@@ -61,17 +66,18 @@ p.textSkills {
   width: 1200px;
   margin: auto;
 }
-.aboutMe {
+#aboutMe {
   /*outline: solid red 1px;*/
   height: 547px;
   width: 1200px;
   margin: auto;
+  background-color: #026873;
+  border-bottom: solid black 1px;
 
 }
 
 .introGraph {
   /*outline: solid red 1px;*/
-  display: inline-block;
   width: 690px;
   height: 547px;
   float: left; 
@@ -82,10 +88,10 @@ p.textSkills {
   position: relative;
   top: 20%;
   left: 15%;
+  color: white;
 }
 .headShot {
   /*outline: solid red 1px;*/
-  display: inline-block;
   width: 490px;
   height: 547px;
   float: right;
@@ -138,7 +144,7 @@ p.textSkills {
   right: -390px;
   top: 14%;
 }
-.myWork {
+#myWork {
   /*outline: solid red 1px;*/
   width: 1200px;
   margin: auto;
@@ -147,6 +153,14 @@ p.textSkills {
   /*outline: solid red 1px;*/
   height: 50px;
   text-align: center;
+}
+
+.spacer {
+  /*outline: solid red 1px;*/
+  height: 30px;
+  width: 1200px;
+  margin: auto;
+  color: white;
 }
 .myWork1 {
   /*outline: solid red 1px;*/
@@ -215,10 +229,28 @@ p.textSkills {
   outline: solid black 1px;
   box-shadow: 10px 10px 10px;
 }
+
+.connectWithMe {
+  /*outline: solid red 1px;*/
+  width: 1200px;
+  height: 370px;
+  margin: auto;
+}
+
+#connectText {
+  text-align: center;
+}
+
+#imgLi {
+  position: relative;
+  top: 20%;
+  left: 45%;
+}
 footer {
   /*outline: solid red 1px;*/
   width: 1200px;
   margin: auto;
+  background-color: #731247;
 }
 .footerText {
   /*outline: solid red 1px;*/
@@ -228,15 +260,34 @@ footer {
   right: -200px;
   top: 0px;
   font-family: 'Open Sans', sans-serif;
+  color: white;
+  border-top: solid black 1px;
 }
 
 .footerText li {
-  padding: 40px
+  padding: 40px;
+  font-weight: bold;
 }
 .footerText p {
   text-align: center;
 }
-.hr.solid {
-  border-top: 3px solid #bbb;
+
+a.emailLink:link {
+  color: white;
 }
 
+a.emailLink:hover {
+  color: #026873;
+}
+
+a.navLink:link {
+  color: black;
+}
+
+a.navLink:hover {
+  color: #026873;
+}
+
+a.navLink:visited {
+  color: #731247;
+}
